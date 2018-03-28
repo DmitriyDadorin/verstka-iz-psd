@@ -1,0 +1,1 @@
+# verstka-iz-psd
