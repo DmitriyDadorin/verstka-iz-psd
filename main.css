@@ -1,0 +1,241 @@
+
+ body{
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;    
+}
+
+html{
+    overflow-x: hidden;
+}
+
+ a {    
+    font-size:12px;
+    text-decoration:none;
+    color: white;
+    font-weight:bold;
+    }
+
+ /* Первый блок сайта + хедер  */
+ .main_block_1{    
+    display: flex;   
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-image: url(img/img.png);
+    width: 100%;}
+    
+ .header{   
+    width: 100%
+    
+ }
+
+ .container_header{    
+        display: flex;   
+        justify-content: space-between;
+        border-bottom: solid 1px rgba(255, 255, 255, 0.3);    
+        width: 65%;
+        margin: 0 15% 0 15%;
+       
+     }
+
+ 
+ .header_section{
+    display: flex;
+    align-items: center;    
+    margin: 0;
+    padding: 0;}
+
+  
+
+
+  .logo{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin: 0 20% 0 0;
+ 
+}
+ 
+
+ .text{
+    width: 600px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+li {
+      font-size: 20px;
+    text-decoration: none;
+    list-style-type: none;
+    }
+
+.block_text{    
+    height: 650px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+   
+}
+
+.main_text{   
+    padding: 0;
+    margin: 0;
+    margin-top: 151px;
+    text-align: center;       
+    font-size: 65px;
+    color: rgba(255, 255, 255, 0.8);
+    text-transform: uppercase;
+    
+}
+
+.text_2{    
+    padding: 0;
+    margin: 0;     
+    margin-top: 55px;            
+    font-size: 22px;
+    color: rgba(255, 255, 255, 0.8);
+    text-align: center;  
+    line-height: 33px; 
+}
+
+.button_red{
+padding: 0;
+margin: 0; 
+margin-top: 76px; 
+background:#E84545;
+border: 0;
+outline: none;
+color: white;
+height: 50px;
+width: 200px;    
+}
+.button_red:hover{
+background: rgba(232, 69, 69, 0.7);
+}
+.button_red:active{
+    background:red;
+    }
+    
+   
+.main_block_2{
+    display: flex; 
+    flex-direction: column;   
+    justify-content: space-around;  
+    width: 100%;
+}
+.conteinr_1{
+    display: flex;    
+    justify-content: space-around;
+    margin-top: 120px;
+    margin-bottom: 50px;
+    margin-left: 230px;
+    margin-right: 230px;
+   
+}
+.conteinr_2{
+    display: flex;    
+    justify-content: space-around;
+    margin-bottom: 120px;
+    margin-left: 230px;
+    margin-right: 230px;
+}
+.element {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;   
+    text-align: center;  
+    margin: 25px;  
+}
+.element p{
+    font-size: 14px;
+    line-height: 21px;
+    color: #6c7279;
+}
+
+h3{
+    text-transform: uppercase;
+    margin-bottom: 0;
+    } 
+
+    .main_block_3{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+       
+    }
+
+    .section-works{
+        display: flex;
+        justify-content:space-around;
+    }
+    .works{
+      max-width: 100%;
+      height: auto;
+      width: 25%;
+      border: 1px solid white;
+    }
+    
+    
+    /* два футера */
+
+ footer{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    width: 100%;
+    
+    }
+
+.footer_container_1{
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    height: 250px;
+    width: 100%;
+    background-color: #3a3e64;
+    }
+    
+    .footer_container_2{
+    display: flex;
+    justify-content: space-around;
+    background-color: #313454;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    text-align: center;
+    }
+    .footer_container_2 p{
+        color: #808080;
+        font-size: 14px;
+        line-height: 22.5px;
+    }
+
+    .footer-box p{
+        display: flex;
+        flex-direction: column;
+        align-items: center;            
+        font-size: 14px;
+        line-height: 22.5px;
+        color: rgba(255, 255, 255, 0.5)
+    }
+    
+
+    h4{
+text-transform: uppercase;
+font-size: 14px;
+}
+ .made{
+     color: white;
+ }
+ .heart{
+     color: red;
+      }
