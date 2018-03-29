@@ -218,6 +218,9 @@ h3{
         font-size: 14px;
         line-height: 22.5px;
     }
+    .footer-box{
+        display: flex;
+    }
 
     .footer-box p{
         display: flex;
