@@ -2,9 +2,9 @@
  body{
     font-family: 'Raleway', sans-serif;
     margin: 0;
-    padding: 0;
-    width: 100%;
-    overflow-x: hidden;    
+    padding: 0;    
+    overflow-x: hidden;   
+    width: auto; 
 }
 
 html{
@@ -18,15 +18,17 @@ html{
     font-weight:bold;
     }
 
- /* Первый блок сайта + хедер  */
+ /* Первый блок  + хедер  */
  .main_block_1{    
     display: flex;   
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     background-image: url(img/img.png);
-    width: 100%;}
     
+    
+}
+
  .header{   
     width: 100%
     
@@ -46,7 +48,11 @@ html{
     display: flex;
     align-items: center;    
     margin: 0;
-    padding: 0;}
+    padding: 0;
+    width: 600px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;}
 
   
 
@@ -60,14 +66,6 @@ margin: 0 20% 0 0;
  
 }
  
-
- .text{
-    width: 600px;
-    height: 100px;
-    display: flex;
-    justify-content: space-between;
-   
-}
 
 li {
       font-size: 20px;
@@ -130,8 +128,9 @@ background: rgba(232, 69, 69, 0.7);
     flex-direction: column;   
     justify-content: space-around;  
     width: 100%;
+    height: auto;
 }
-.conteinr_1{
+.container_1{
     display: flex;    
     justify-content: space-around;
     margin-top: 120px;
@@ -140,7 +139,7 @@ background: rgba(232, 69, 69, 0.7);
     margin-right: 230px;
    
 }
-.conteinr_2{
+.container_2{
     display: flex;    
     justify-content: space-around;
     margin-bottom: 120px;
@@ -170,18 +169,22 @@ h3{
         display: flex;
         flex-direction: column;
         width: 100%;
+        height: auto;
+        
        
     }
 
     .section-works{
         display: flex;
         justify-content:space-around;
+        
     }
     .works{
-      max-width: 100%;
-      height: auto;
+      max-width: 100%;      
       width: 25%;
+      height: auto;
       border: 1px solid white;
+      object-fit: cover;     
     }
     
     
@@ -195,6 +198,7 @@ h3{
     width: 100%;
     
     }
+ /* первый футер */
 
 .footer_container_1{
     display: flex;
@@ -204,7 +208,39 @@ h3{
     width: 100%;
     background-color: #3a3e64;
     }
-    
+
+.footer-box{
+    display: flex;
+    flex-direction: column;   
+    margin: 0;
+   
+}
+
+.footer-box p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;            
+    font-size: 14px;
+    line-height: 22.5px;
+    color: rgba(255, 255, 255, 0.5);    
+   
+}
+
+h4 {
+    text-transform: uppercase;
+    font-size: 14px;
+    text-align: center;    
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.footer_icon {
+   margin: 0;
+}
+
+    /* Второй футер */
+
     .footer_container_2{
     display: flex;
     justify-content: space-around;
@@ -213,29 +249,14 @@ h3{
     padding-bottom: 30px;
     text-align: center;
     }
+
     .footer_container_2 p{
         color: #808080;
         font-size: 14px;
-        line-height: 22.5px;
-    }
-    .footer-box{
-        display: flex;
-    }
+        line-height: 22.5px;}
+  
 
-    .footer-box p{
-        display: flex;
-        flex-direction: column;
-        align-items: center;            
-        font-size: 14px;
-        line-height: 22.5px;
-        color: rgba(255, 255, 255, 0.5)
-    }
-    
-
-    h4{
-text-transform: uppercase;
-font-size: 14px;
-}
+ 
  .made{
      color: white;
  }
