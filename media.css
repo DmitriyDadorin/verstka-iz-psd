@@ -14,4 +14,16 @@
 
  */
 
- @media ()
+ @media (max-width: 1100px) {
+    .header_section{
+        flex-direction: column;
+        width: 100px;
+        height: auto;  
+        background-color: rgba(0, 0, 0, 0.3);
+        z-index: 2;
+    }
+    nav{
+        border-bottom: none;
+}
+
+ }

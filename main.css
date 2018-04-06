@@ -38,6 +38,11 @@ html{
        
      }
 
+     .menu-icon{
+         display: flex;
+         align-items: center; 
+         display: none;       
+     }
  
  .header_section{
     display: flex;
@@ -197,6 +202,9 @@ h3{
        
     }
 
+    .red-text{
+        color: #e84545;
+    }
 
     .pics:last-child{
         margin-right: 10%; 
